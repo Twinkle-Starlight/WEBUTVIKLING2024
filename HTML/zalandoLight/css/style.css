@@ -1,5 +1,5 @@
 html {
-    font-size: 18px; /* Setter grunnstørrelsen på teksten til 18px for hele dokumentet for å gi en standard baseline */
+    font-size: calc(1em + 1vw); /* Setter grunnstørrelsen på teksten til 18px for hele dokumentet for å gi en standard baseline */
 }
 
 * {
@@ -9,6 +9,12 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif; /* Setter standard fontfamilie til Arial, med fallback til Helvetica og sans-serif for kompatibilitet på tvers av enheter */
 }
+
+h1{font-size: 2rem;}
+h2{font-size: 1.8rem;}
+h3{font-size: 1.6rem;}
+h4{font-size: 1.4rem;}
+p, a{font-size: 1rem;}
 
 #grid-container {
     display: grid; /* Bruker CSS Grid for å sette opp en layout med rader og kolonner */
@@ -134,6 +140,9 @@ img {
     #menu {
         display: flex !important; /* Viser hovedmenyen som en flexbox på større skjermer */
     }
+
+    h3{font-size: 1.2rem;}
+    p, a {font-size: 0.6rem;}
 }
 
 /*MOBIL*/
